@@ -1,6 +1,11 @@
-body {
+/* Reset general */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial, sans-serif;
     background-color: #ffffff; /* Fondo blanco */
     height: 100vh;
@@ -16,9 +21,9 @@ body {
     width: 100%;
     max-width: 1000px;
     padding: 20px;
-    box-sizing: border-box;
 }
 
+/* Imágenes a los costados */
 .logo,
 .imagen-inferior {
     max-width: 150px;
@@ -26,6 +31,7 @@ body {
     height: auto;
 }
 
+/* Texto central */
 h1 {
     margin: 0 40px;
     font-size: 3rem;
